@@ -13,10 +13,10 @@ $ su
 
 Digite a senha do SU
 
-Entre com os dois coandos
+Entre com os dois comandos
 
-# sudo deluser nome_do_usuario sudo
-# sudo dpasswd -d nome_do_usuario sudo
+# sudo deluser $USER sudo 
+# sudo gpasswd -d $USER sudo
 
 Reinicie a máquina
 
